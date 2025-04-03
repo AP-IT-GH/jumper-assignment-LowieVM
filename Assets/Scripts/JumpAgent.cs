@@ -63,7 +63,7 @@ public class JumpAgent : Agent
         }
     }
 
-    public void TakeReward() // called when successfully jumped over obstacle
+    public void TakeReward() // called when successfully jumped over reward
     {
         AddReward(-0.5f);
         obstacleSpawner.ResetObstacle();
